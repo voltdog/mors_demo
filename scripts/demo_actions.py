@@ -29,8 +29,8 @@ if __name__ == '__main__':
     set_action_client(1)
     # Дай лапу
     set_action_client(3)
-    # При повторном вызове робот дает другую лапу
-    set_action_client(3)
+    # Дай другую лапу
+    set_action_client(7)
     # Кувырок
     set_action_client(4)
     # Помахай лапой
