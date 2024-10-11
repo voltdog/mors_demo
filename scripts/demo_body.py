@@ -83,7 +83,7 @@ if __name__ == '__main__':
             if t > 27.0 and phi > 0.0:
                 phi -= dt
             cmd_pose_msg.linear.x = 0.045*np.sin(0.5*2*np.pi*t)
-            cmd_pose_msg.linear.y = 0.025*np.sin(0.5*2*np.pi*t + phi)
+            cmd_pose_msg.linear.y = 0.02*np.sin(0.5*2*np.pi*t + phi)
         # прерываем цикл
         else:
             break
