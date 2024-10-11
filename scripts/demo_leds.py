@@ -71,4 +71,5 @@ if __name__ == '__main__':
         # ждем следующей итерации
         rate.sleep()
 
+    set_led(0, led_sequence[1][0], led_sequence[1][1], led_sequence[1][2], led_sequence[1][3], led_sequence[1][4])
     rospy.loginfo("Demo LEDs: Stop")
