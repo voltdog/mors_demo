@@ -58,11 +58,12 @@ if __name__ == '__main__':
  
     rospy.loginfo("Demo Walk: Start")
 
+    # устанавливаем режим ходьбы
+    set_mode_client(0)
+
     # встаем
     set_action_client(1)
 
-    # устанавливаем режим ходьбы
-    set_mode_client(0)
     # делаем высоту шага 4 см
     set_stride_height_client(0.04)
 
